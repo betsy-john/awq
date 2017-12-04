@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>local vcs</title>
+</head>
+<body>
+<pre>
+<h3>Introduction to Local Version Control System</h3>
+<hr/>
+I’ve recently become obsessed with git for version control. I know that there are many git tutorials out there; this is probably redundant, but it focuses on only the simplest operations for my own reference. The git man pages themselves are extremely well written. This post is an adaptation of an article I wrote for our department wiki, targeted at some of my fellow researchers who have probably never heard of git. I removed all of the references to our internal projects.
+
+Unfortunately, one of our major codebases at work is stored in a Microsoft Visual SourceSafe repository; it has been for years, and there’s enough momentum that we likely won’t move to a better version control system any time soon. If the motivation sounds odd, I mostly write research code, so we are regularly creating totally new code that may be used once or twice and then never again.
+
+Visual SourceSafe has limited branching capabilities, so many users keep large subsets of the codebase checked out onto their development machine. When a major experimental change is feature-complete, dealing with merges in VSS is a pain that typically involves face-to-face negotiations of who checks in what when, or one person spending a day or two fixing conflicts in WinMerge or a similar tool. This article demonstrates how to use git, a modern distributed version control system used by the Linux kernel (among others), to manage smaller-scale changes to VSS code trees on Windows without having to risk checking in files that “break” functionality for other users.
+
+The main point of using a local version control repository inside of a VSS checkout is three-fold:
+
+Commit more often
+Easy branching for experimental code (whether or not it pans out)
+More detailed history/self-documentation of recent changes
+I’ve found that my development habits have gotten much better using git; in particular, I commit just about every successful compile-and-test, and I try to isolate commits by functionality as much as possible, so that it’s trivial to cherry pick experimental changes that should be kept or not.
+</pre>
