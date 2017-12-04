@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Intro to dvcs</title>
+</head>
+<body>
+<pre>
+In computer programming, distributed version control, also known as distributed revision control or decentralized version control, is a form of version control that allows software developers to work on a given project without requiring 
+them to share a common network. The software revisions are stored in a distributed revision control system (DRCS), also known as a distributed version control system (DVCS).
+
+<p style="color:red">Distributed vs. Centralized</p>
+<hr>Distributed revision control takes a peer-to-peer approach to version control, as opposed to the client–server approach of centralized systems. Rather than a single, central repository on which clients synchronize, each peer's working copy of the codebase is a complete repository.[1] Distributed revision control synchronizes repositories by exchanging patches (sets of changes) from peer to peer. This results in some important differences from a centralized system:
+
+No canonical, reference copy of the codebase exists by default; only working copies.
+Common operations (such as commits, viewing history, and reverting changes) are fast, because there is no need to communicate with a central server.[2]
+Communication is only necessary when sharing changes among other peers.
+Each working copy effectively functions as a remote backup of the codebase and of its change-history, protecting against data loss.[2]
+Other differences include:
+
+Multiple "central" repositories.
+Code from disparate repositories is merged based on a web of trust, i.e., historical merit or quality of changes.
+Numerous different development models are possible, such as development / release branches or a Commander / Lieutenant model, allowing for efficient delegation of topical developments in very large projects.[3] Lieutenants are project members who have the power to dynamically decide which branches to merge.
+A separate set of "sync" operations are available for committing or receiving changes with remote repositories.
+DVCS proponents point to several advantages of distributed version control systems over the traditional centralised model:
+
+Allows users to work productively when not connected to a network.
+Makes most operations much faster.
+Allows participation in projects without requiring permissions from project authorities, and thus arguably better fosters culture of meritocracy[citation needed] instead of requiring "committer" status.
+Allows private work, so users can use their changes even for early drafts they do not want to publish.
+Avoids relying on one physical machine as a single point of failure.
+Permits centralized control of the "release version" of the project
+On FOSS software projects it is much easier to create a project fork from a project that is stalled because of leadership conflicts or design disagreements.
+Software development author Joel Spolsky, the owner of a commercial DVCS, described distributed version control as "possibly the biggest advance in software development technology in the [past] ten years."[4]
+
+A disadvantage is that initial cloning of a repository is slower as compared to centralized checkout, because all branches and revision history are copied to your local machine. This may be significant if access speed is slow and the repository size is large enough. For instance, the size of the cloned git repository (all history, branches, tags, etc.) for the Linux kernel is approximately the size of the checked-out uncompressed HEAD, whereas the equivalent checkout of a single branch in a centralized checkout would be the compressed size of the contents of HEAD (except without any history, branches, tags, etc.). Another problem with DVCS is the lack of locking mechanisms that is part of most centralized VCS and still plays an important role when it comes to non-mergeable binary files such as graphic assets.
+</pre?
+</body>
+</html>
