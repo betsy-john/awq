@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CSCV</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"></div>
+			</header>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+
+				<!-- One -->
+					<section id="one" class="wrapper style1">
+
+						<div class="image fit flush">
+							<img src="images/pic02.jpg" alt="" />
+						</div>
+						<header class="special">
+							<h2>ABOUT CVCV</h2>
+							<p>What is cscv</p>
+						</header>
+						<div class="content">
+							<p>The Concurrent Versions System (CVS), also known as the Concurrent Versioning System, is a free software client-server revision control system in the field of software development. A version control system keeps track of all work and all changes in a set of files, and allows several developers (potentially widely separated in space and time) to collaborate. Dick Grune developed CVS as a series of shell scripts in July 1986.[1]</p>
+							<p>In addition to commercial software developers, CVS became popular with the open source software world and was released under the GNU General Public License. While there was regular development to add features and fix bugs in the past,[2] including regular builds and test results,[3] there have been no new releases since 2008.[4]</p>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style2">
+						<header>
+							<h2>Features</h2>
+							<p>Features of cscv</p>
+<p>CVS uses a client–server architecture: a server stores the current version(s) of a project and its history, and clients connect to the server in order to "check out" a complete copy of the project, work on this copy and then later "check in" their changes. Typically, the client and server connect over a LAN or over the Internet, but client and server may both run on the same machine if CVS has the task of keeping track of the version history of a project with only local developers. The server software normally runs on Unix (although at least the CVSNT server also supports various flavours of Microsoft Windows), while CVS clients may run on any major operating-system platform.
+
+Several developers may work on the same project concurrently, each one editing files within their own "working copy" of the project, and sending (or checking in) their modifications to the server. To avoid conflicts, the server only accepts changes made to the most recent version of a file. Developers are therefore expected to keep their working copy up-to-date by incorporating other people's changes on a regular basis. This task is mostly handled automatically by the CVS client, requiring manual intervention only when an edit conflict arises between a checked-in modification and the yet-unchecked local version of a file.
+
+If the check in operation succeeds, then the version numbers of all files involved automatically increment, and the CVS-server writes a user-supplied description line, the date and the author's name to its log files. CVS can also run external, user-specified log processing scripts following each commit. These scripts are installed by an entry in CVS's loginfo file, which can trigger email notification or convert the log data into a Web-based format.
+
+Clients can also compare versions, request a complete history of changes, or check out a historical snapshot of the project as of a given date or as of a revision number.
+
+CVS servers can allow "anonymous read access",[5] wherein clients may check out and compare versions with either a blank or simple published password (e.g., "anoncvs"); only the check-in of changes requires a personal account and password in these scenarios.
+
+Clients can also use the "update" command to bring their local copies up-to-date with the newest version on the server. This eliminates the need for repeated downloading of the whole project.
+
+CVS can also maintain different "branches" of a project. For instance, a released version of the software project may form one branch, used for bug fixes, while a version under current development, with major changes and new features, can form a separate branch.
+
+CVS uses delta compression for efficient storage of different versions of the same file. This works well with large text files with few changes from one version to the next. This is usually the case for source code files. On the other hand, when CVS is told to store a file as binary, it will keep each individual version on the server. Storing files as binary is important in order to avoid corruption of binary files.
+
+In the world of open source software, the Concurrent Version System (CVS) has long been the tool of choice for version control. And rightly so. CVS itself is free software, and its non-restrictive modus operandi and support for networked operation – which allow dozens of geographically dispersed programmers to share their work – fits the collaborative nature of the open-source world very well. CVS and its semi-chaotic development model have become cornerstones of open-source.
+
+— Collins-Sussman, Version Control with Subversion For Subversion 1.1, 2005</p>
+						</header>
+						<div class="content">
+							<div class="gallery">
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic03.jpg"><img src="images/pic03.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic01.jpg"><img src="images/pic01.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic04.jpg"><img src="images/pic04.jpg" alt="" /></a>
+									</div>
+								</div>
+								<div>
+									<div class="image fit flush">
+										<a href="images/pic05.jpg"><img src="images/pic05.jpg" alt="" /></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper">
+						<div class="spotlight">
+							<div class="image flush"><img src="images/pic06.jpg" alt="" /></div>
+							<div class="inner">
+								<h3>Terminology</h3>
+								<p>CVS labels a single project (set of related files) that it manages as a module. A CVS server stores the modules it manages in its repository. Programmers acquire copies of modules by checking out. The checked-out files serve as a working copy, sandbox or workspace. Changes to the working copy are reflected in the repository by committing them. To update is to acquire or merge the changes in the repository with the working copy.</p>
+							</div>
+						</div>
+						<div class="spotlight alt">
+							<div class="image flush"><img src="images/pic07.jpg" alt="" /></div>
+							<div  class="inner">
+								<h3>Curabitur Eget</h3>
+								<p>Curabitur eget semper ante. Morbi eleifend ultricies est, a blandit diam vehicula vel. Vestibulum porttitor nisi quis viverra hendrerit. Suspendisse vel volutpat nibh, vel elementum lacus. Maecenas commodo pulvinar dui, at cursus metus imperdiet vel.</p>
+							</div>
+						</div>
+						<div class="spotlight">
+							<div class="image flush"><img src="images/pic08.jpg" alt="" /></div>
+							<div class="inner">
+								<h3>Design</h3>
+								<p>CVS was designed:
+
+to exclude Symbolic links because when they are stored in a version control system they can pose a security risk. For instance, a symbolic link to a sensitive file can be stored in the repository, making the sensitive file accessible even when it is not checked in. In place of symbolic links, scripts that require certain privileges and conscious intervention to execute may be checked into CVS.[citation needed]
+use the native ASCII character set in filenames, precluding the use of multi-lingual filenames. Now many Unix systems run in UTF-8,[6] and CVS on such systems handles UTF-8 multi-lingual filenames natively.
+create revisions per file, not an identifier for all revisions created during a commit ( this is sometimes referred to as atomic but not in the transactional database sense, where a commit automatically rolls back if it fails for any reason, but in the sense that each commit can be uniquely identified). This design choice was made even when servers could easily have had insufficient resilience to complete a commit without crashing. The lack of atomicity is mitigated by the fact that in many code management processes, development work is performed on branches and then merged into the trunk after code review. That final merge is atomic, and performed in the data center by QA[citation needed]. Tracking each commit can be accomplished by modifying the correct trigger.
+to assume that the majority of work takes place on the trunk, and that branches should generally be short-lived or historical. When used as designed, branches are easily managed and branch operations are efficient and fast.[7][8]
+that Text files are expected to be the primary file type stored in the CVS repository[citation needed]. However, binary files are also supported, and files with a particular file extension can automatically be recognized as being binary.
+that changes would be frequently committed to the centrally checked-in copies of files in order to aid merging and foster rapid distribution of changes to all users[citation needed], so there is no support for distributed revision control or unpublished changes.</p>
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved. Images <a href="https://unsplash.com">Unsplash</a> Design <a href="https://templated.co">TEMPLATED</a>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
