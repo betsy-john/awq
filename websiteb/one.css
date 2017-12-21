@@ -1,0 +1,17 @@
+
+
+.section2 {
+    
+    float: left;
+    width: 270px;
+    height: 300px;
+   
+}
+
+li.section3{
+    
+   padding: 10px;
+}
+li{
+    display:inline;
+}
