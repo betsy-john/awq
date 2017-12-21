@@ -144,3 +144,8 @@ footer{
         float:left;
 
     }
+    /* SECTION 2 six boxes styling */
+    .section2art{
+        padding-bottom: 70px;
+        padding-top: 70px;
+      }
