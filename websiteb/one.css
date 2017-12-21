@@ -117,3 +117,30 @@ footer{
     text-decoration: none;
 
 }
+/*section1 styling*/
+.section1art{
+    width: 1500px; display:flex;margin-left: 270px;
+   } 
+   .fieldsetart{
+        padding-bottom: 20px;
+        padding-top: 30px;
+        padding-right: 17px;
+        padding-left: 20px;
+        margin-left: 0px;
+              }
+    .buttonart{
+        padding-right: 90px;
+        padding-left: 90px;color: white;
+        background-color: rgb(241, 100, 48);    
+        padding-top: 10px;
+        padding-bottom: 7px;
+
+                }
+    .para1art{
+        height: 228px;
+        padding-top: 30px; 
+        padding-right:50px; 
+        padding-left:25px; 
+        float:left;
+
+    }
