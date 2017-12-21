@@ -178,3 +178,26 @@ footer{
         padding-top: 50px;
 
      }
+     /*SECTION 4 stlying our causes*/
+     #section4art{
+        height:650px; 
+        padding-top:50px; 
+        background-color: rgb(247, 245, 245);
+
+    }
+    #ul1{
+        float:left; 
+        padding-right:15px;
+    }
+    #ul2{
+        float:left;
+        padding-right:20px;
+        padding-left:60px;
+
+    }
+    #ul3{
+        float:left;
+        padding-left:55px;
+    }
+
+    /*SECTION 5 stlying video*/
