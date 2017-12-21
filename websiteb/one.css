@@ -41,7 +41,7 @@ li{
     background-color:rgb(233, 230, 230);
     padding-top: 25px;
    }
-   .code5{ text-align: center;
+.code5{ text-align: center;
 
    }
 .code6{
@@ -201,3 +201,51 @@ footer{
     }
 
     /*SECTION 5 stlying video*/
+
+    #playbutton{
+        position:absolute;
+        left:37em;top:212em;
+       }
+       #videoart{
+        float:left;margin-left: 330px;
+       }
+       #videopara{
+        width:600px; 
+        float:left; 
+        padding-left:20px;
+       }
+
+       /*SECTION 6 stlying volunteers*/    
+       #section6art{
+        height: 550px; 
+        padding-top: 50px;
+        padding-bottom: 50px; 
+        background-color: rgb(247, 245, 245);
+      }
+      #imgart1{
+        width:600px;
+        height:470px; 
+        float:left;
+      }
+      #imgart2{
+        width:300px;
+        height:470px; 
+        float:left;
+
+      }
+      #imgart3{
+        width:300px;
+        height:235px;
+      }
+      #imgart4{
+        width:600px;
+        height:235px;  
+      }
+      #imgart5{
+        width:300px;
+        height:470px;
+      }
+      /*SECTION 7 footer*/ 
+      #section7art{
+        width: 203px; 
+      }
